@@ -113,6 +113,15 @@ class CoinStorage(val marketDatabase: MarketDatabase) {
             coins.forEach { coinDao.insert(it) }
             blockchainEntities.forEach { coinDao.insert(it) }
             tokenEntities.forEach { coinDao.insert(it) }
+            coinDao.insert(
+                TokenEntity(type = "eip20", blockchainUid = "ethereum", coinUid = "usd-coin", reference = "0x07865c6E87B9F70255377e024ace6630C1Eaa37F", decimals = 6)
+            )
+            coinDao.insert(
+                TokenEntity(type = "eip20", blockchainUid = "polygon-pos", coinUid = "usd-coin", reference = "0x0FA8781a83E46826621b3BC094Ea2A0212e71B23", decimals = 6)
+            )
+            coinDao.insert(
+                TokenEntity(type = "eip20", blockchainUid = "avalanche", coinUid = "usd-coin", reference = "0x5425890298aed601595a70AB815c96711a31Bc65", decimals = 6)
+            )
         }
     }
 
