@@ -45,7 +45,7 @@ class CoinSyncer(
             .observeOn(Schedulers.io())
             .subscribe({ coinsData ->
                 handleFetched(coinsData.first, coinsData.second, coinsData.third)
-                saveLastSyncTimestamps(coinsTimestamp, blockchainsTimestamp, tokensTimestamp)
+//                saveLastSyncTimestamps(coinsTimestamp, blockchainsTimestamp, tokensTimestamp)
             }, {
                 Log.e("CoinSyncer", "sync() error", it)
             })
