@@ -45,7 +45,7 @@ class CoinSyncer(
             .observeOn(Schedulers.io())
             .subscribe({ coinsData ->
                 handleFetched(coinsData.first, coinsData.second, coinsData.third)
-                saveLastSyncTimestamps(coinsTimestamp, blockchainsTimestamp, tokensTimestamp)
+//                saveLastSyncTimestamps(coinsTimestamp, blockchainsTimestamp, tokensTimestamp)
             }, {
                 Log.e("CoinSyncer", "sync() error", it)
             })
@@ -84,7 +84,7 @@ class CoinSyncer(
     }
 
     private fun handleFetched(coins: List<Coin>, blockchainEntities: List<BlockchainEntity>, tokenEntities: List<TokenEntity>) {
-        storage.update(coins, blockchainEntities, transform(tokenEntities))
+//        storage.update(coins, blockchainEntities, transform(tokenEntities))
         fullCoinsUpdatedObservable.onNext(Unit)
     }
 

@@ -7303,7 +7303,7 @@ INSERT INTO TokenEntity VALUES('solchicks-token','solana','spl',9,'cxxShYRVcepDu
 INSERT INTO TokenEntity VALUES('solchicks-token','binance-smart-chain','eip20',8,'0xa91c7bc1e07996a188c1a5b1cfdff450389d8acf');
 INSERT INTO TokenEntity VALUES('sipher','ethereum','eip20',18,'0x9f52c8ecbee10e00d9faaac5ee9ba0ff6550f511');
 INSERT INTO TokenEntity VALUES('solbank-token','solana','spl',6,'uNrix3Q5g51MCEUrYBUEBDdQ96RQDQspQJJnnQ4T3Vc');
-INSERT INTO TokenEntity VALUES('stellar','stellar','native',null,'');
+INSERT INTO TokenEntity VALUES('stellar','stellar','native',7,'');
 INSERT INTO TokenEntity VALUES('staked-ether','ethereum','eip20',18,'0xae7ab96520de3a18e5e111b5eaab095312d7fe84');
 INSERT INTO TokenEntity VALUES('sushi','avalanche','eip20',18,'0x37b608519f91f70f2eeb0e5ed9af4061722e4f76');
 INSERT INTO TokenEntity VALUES('sushi','arbitrum-one','eip20',18,'0xd4d42f0b6def4ce0383636770ef773390d85c61a');
@@ -7910,10 +7910,12 @@ INSERT INTO TokenEntity VALUES('the-midas-touch-gold','ethereum','eip20',18,'0x1
 INSERT INTO TokenEntity VALUES('the-tokenized-bitcoin','ethereum','eip20',8,'0x3212b29e33587a00fb1c83346f5dbfa69a458923');
 INSERT INTO TokenEntity VALUES('temple','ethereum','eip20',18,'0x470ebf5f030ed85fc1ed4c2d36b9dd02e77cf1b7');
 INSERT INTO TokenEntity VALUES('trisolaris','aurora','aurora',null,'0xfa94348467f64d5a457f75f8bc40495d33c65abb');
-INSERT INTO TokenEntity VALUES('usd-coin','avalanche','eip20',6,'0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e');
+INSERT INTO TokenEntity VALUES('usd-coin','stellar','credit_alphanum4',7,'GBBD47IF6LWK7P7MDEVSCWR7DPUWV3NY3DTQEVFL4NAT4AQH3ZLLFLA5');
+INSERT INTO TokenEntity VALUES('usd-coin','avalanche','eip20',6,'0x5425890298aed601595a70AB815c96711a31Bc65');
+INSERT INTO TokenEntity VALUES('usd-coin','polygon-pos','eip20',6,'0x9999f7Fea5938fD3b1E26A12c3f2fb024e194f97');
 INSERT INTO TokenEntity VALUES('usd-coin','solana','spl',6,'EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v');
 INSERT INTO TokenEntity VALUES('usd-coin','binance-smart-chain','eip20',18,'0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d');
-INSERT INTO TokenEntity VALUES('usd-coin','ethereum','eip20',6,'0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48');
+INSERT INTO TokenEntity VALUES('usd-coin','ethereum','eip20',6,'0x07865c6E87B9F70255377e024ace6630C1Eaa37F');
 INSERT INTO TokenEntity VALUES('usd-coin','arbitrum-one','eip20',6,'0xaf88d065e77c8cc2239327c5edb3a432268e5831');
 INSERT INTO TokenEntity VALUES('usd-coin','bitgert','bitgert',null,'0xcf2df9377a4e3c10e9ea29fdb8879d74c27fcde7');
 INSERT INTO TokenEntity VALUES('usd-coin','kava','kava',null,'0xfa9343c3897324496a05fc75abed6bac29f8a40f');
